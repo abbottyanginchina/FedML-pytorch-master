@@ -21,6 +21,11 @@ There are three different models in this project:
 * Medium
 * Large
 
+## The kinds of Clients
+There are three kinds of behaviour of clients:
+* Normal clients: client trains model and returns updated parameters
+* Freerider: Client does not train model and returns original parameters
+* adversarial client: Client returns randomized parameters
 
 ## Requirements
 python == 3.8  
